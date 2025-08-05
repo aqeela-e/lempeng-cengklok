@@ -31,11 +31,7 @@
                             </div>
                             <div>
                                 <x-input-label for="wa" :value="'Nomor WhatsApp Mitra'" />
-                                <x-text-input type="text" name="wa" class="w-full" placeholder="contoh: 6281234567890" />
-                            </div>
-                            <div>
-                                <x-input-label for="ig" :value="'Username Instagram Mitra'" />
-                                <x-text-input type="text" name="ig" class="w-full" placeholder="contoh: mitralempeng" />
+                                <x-text-input type="text" name="wa" class="w-full" placeholder="contoh: 081234567890" />
                             </div>
                             <div>
                                 <x-input-label for="user_id" :value="'Pilih Mitra (Pemilik Produk)'" />
@@ -138,10 +134,6 @@
                             <x-input-label :value="'Nomor WhatsApp'" />
                             <x-text-input type="text" name="wa" value="{{ $product->wa }}" class="w-full" />
                         </div>
-                        <div>
-                            <x-input-label :value="'Instagram'" />
-                            <x-text-input type="text" name="ig" value="{{ $product->ig }}" class="w-full" />
-                        </div>
                     </div>
 
                     <div>
@@ -209,10 +201,6 @@
                         <div>
                             <x-input-label :value="'Nomor WhatsApp'" />
                             <x-text-input type="text" name="wa" value="{{ $product->wa }}" class="w-full" />
-                        </div>
-                        <div>
-                            <x-input-label :value="'Instagram'" />
-                            <x-text-input type="text" name="ig" value="{{ $product->ig }}" class="w-full" />
                         </div>
                     </div>
 

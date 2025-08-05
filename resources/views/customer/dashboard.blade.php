@@ -190,17 +190,30 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 mb-4" data-aos="fade-right">
-        <img src="{{ asset('storage/about.jpeg') }}" class="img-fluid rounded shadow" alt="Tentang Kami">
+        <img src="{{ asset('storage/about.png') }}" class="img-fluid rounded shadow" alt="Tentang Kami">
       </div>
       <div class="col-md-6 content-box" data-aos="fade-left">
-        <h2 class="text-success mb-3">Tentang Kami</h2>
-        <p>Kami adalah komunitas UMKM lokal yang memproduksi dan memasarkan <strong>Lempeng Cengklok Wonogiri</strong> berkualitas tinggi dengan harga terjangkau. Melalui inovasi dan kerja sama, kami menghadirkan produk sehat langsung dari tangan petani ke meja Anda.</p>
-        <ul class="list-unstyled mt-3">
-          <li><i class="fa fa-check text-success"></i> 100% Lokal dan Organik</li>
-          <li><i class="fa fa-check text-success"></i> Diproduksi oleh Mitra Terpercaya</li>
-          <li><i class="fa fa-check text-success"></i> Dukungan terhadap Ekonomi Desa</li>
-        </ul>
-      </div>
+  <!-- Maps Google -->
+  <div class="mb-4 rounded shadow overflow-hidden">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.2612816128235!2d110.92310567404126!3d-7.537524474577782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a020b4e2d6d6f%3A0x5b9ad24b7ef14468!2sNgadirojo%2C%20Wonogiri%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1691234567890!5m2!1sid!2sid" 
+      width="100%" 
+      height="250" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <h2 class="text-success mb-3">Tentang Kami</h2>
+  <p>Kami adalah komunitas UMKM lokal yang memproduksi dan memasarkan <strong>Lempeng Cengklok Wonogiri</strong> berkualitas tinggi dengan harga terjangkau. Melalui inovasi dan kerja sama, kami menghadirkan produk sehat langsung dari tangan petani ke meja Anda.</p>
+  <ul class="list-unstyled mt-3">
+    <li><i class="fa fa-check text-success"></i> 100% Lokal dan Organik</li>
+    <li><i class="fa fa-check text-success"></i> Diproduksi oleh Mitra Terpercaya</li>
+    <li><i class="fa fa-check text-success"></i> Dukungan terhadap Ekonomi Desa</li>
+  </ul>
+</div>
     </div>
   </div>
 </section>
