@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: lempeng-laravel
+    name: lempeng-cengklok
     runtime: php
     buildCommand: |
       composer install --no-dev --optimize-autoloader
